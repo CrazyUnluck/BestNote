@@ -1,13 +1,12 @@
-<h1 align="center">Java Android学习/面试指南</h1>
+<h1 align="center">Java Android学习/面试指南 Q群：830556582</h1>
 
+<!--| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ | Ⅹ | Ⅹ |
+| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
+| Flutter[:iphone:](#Flutter)| Android[:pencil2:](#Android) | Java[:coffee:](#Java)|Kotlin[:unlock:](#Kotlin) | 面试[:memo:](#面试指南) |网络[:cloud:](#网络协议)| 操作系统 [:computer:](#操作系统)| 系统设计[:bulb:](#系统设计)| 工具[:wrench:](#工具)| 数据库[:floppy_disk:](#数据库)| 算法[:pencil2:](#数据结构与算法) |  TODO学习清单[:page_facing_up:](#TODO学习清单) |-->
 
-<!--| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| Android[:squirrel:](#Android) | Java[:coffee:](#Java)|Kotlin[:unlock:](#Kotlin) | 面试[:memo:](#面试指南) |网络[:cloud:](#网络协议)| 操作系统 [:computer:](#操作系统)| 系统设计[:bulb:](#系统设计)| 工具[:wrench:](#工具)| 数据库[:floppy_disk:](#数据库)| 算法[:pencil2:](#数据结构与算法) | -->
-
-| &nbsp;Android&nbsp; | Java | &nbsp;Kotlin&nbsp; | &nbsp;面试&nbsp; | 网络 | &nbsp;&nbsp;操作系统&nbsp;&nbsp; | &nbsp;系统设计&nbsp; | &nbsp;工具&nbsp; | &nbsp;数据库&nbsp; | &nbsp;算法&nbsp; |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| [:squirrel:](#Android) | [:coffee:](#Java)|[:unlock:](#Kotlin) | [:memo:](#面试指南) |[:cloud:](#网络)|  [:computer:](#操作系统)| [:bulb:](#系统设计)| [:wrench:](#工具)| [:floppy_disk:](#数据库)| [:pencil2:](#数据结构与算法) |
+| Flutter| Android | Java | Kotlin | &nbsp;面试&nbsp; | 网络 | 系统 | 系统设计 | &nbsp;工具&nbsp; | 数据库 | 算法 |TODO |
+| :--------:| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|:------:|
+| [ :iphone:](#Flutter)| [:pencil2:](#Android) | [:coffee:](#Java)|[:unlock:](#Kotlin) | [:memo:](#面试指南) |[:cloud:](#网络)|  [:computer:](#操作系统)| [:bulb:](#系统设计)| [:wrench:](#工具)| [:floppy_disk:](#数据库)| [:pencil2:](#数据结构与算法) | [:page_facing_up:](#TODO学习清单) |
 
 <br>
 
@@ -23,6 +22,7 @@
     - [编译器相关](#编译器相关)
     - [框架源码分析](#框架源码分析)
     - [性能优化](#性能优化)
+    - [Android常见设计模式](#Android常见设计模式) 
     - [音视频开发](#音视频开发)    
     - [开源框架](#开源框架)
     - [应用发布](#应用发布)
@@ -35,8 +35,10 @@
     - [JVM](#jvm)
     - [I/O](#io)
     - [Java 8](#java-8)
-    - [编程规范](#编程规范)   
+    - [编程规范](#编程规范)  
+ - [TODO学习清单](#TODO学习清单)      
 - [Kotlin学习](#Kotlin)
+- [Flutter学习](#Flutter)
 - [面试指南](#面试指南)
     - [备战面试](#备战面试)
     - [常见面试题总结](#常见面试题总结)
@@ -95,9 +97,11 @@
 * [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
 * [Android新特性介绍，ConstraintLayout完全解析](https://blog.csdn.net/guolin_blog/article/details/53122387)
 * [Android 一个无限循环滚动的卡片式ViewPager](https://blog.csdn.net/qq_30552993/article/details/76208535)
+* [Android 中获取控件宽和高的方法（详细解析）](https://blog.csdn.net/CodeIsPoisonous/article/details/54316025)
 
 ### 进阶
 
+* [Android 学习笔记核心篇](https://juejin.im/post/5c46db4ae51d4503834d8227)
 * [Android内存泄漏性能优化总结](docs/android/AndroidNote/内存性能.md)
 * [进程间通信详解](docs/android/AndroidNote/IPC.md)
 * [Android中的动画](docs/android/AndroidNote/Android进阶/Android中的动画.md)
@@ -186,6 +190,19 @@
 * [具有弹性的小球](https://github.com/linsir6/mCustomView/tree/master/MagicCircle)
 * [PathMeasure](docs/android/AndroidNote/Android自定义View/PathMeasure.md)
 
+## Android常见设计模式
+* **Android常见设计模式**
+  * [观察者模式](https://blog.csdn.net/chengyuqiang/article/details/79222294)
+  * [策略模式](https://github.com/pengMaster/strategyMode)
+  * [建造者模式](https://www.jianshu.com/p/154948d5adc6)
+  * [适配器模式](https://blog.csdn.net/u012583459/article/details/47079529)
+  * [代理模式](https://blog.csdn.net/u012583459/article/details/47079529)
+  * [工厂模式](https://blog.csdn.net/u012583459/article/details/47079549)
+  * [单例模式](https://blog.csdn.net/u012583459/article/details/47079549)
+  * [命令模式](https://blog.csdn.net/u012583459/article/details/47079549)
+
+
+    
 ### 音视频开发
 - [音视频开发][44]
     - [搭建nginx+rtmp服务器][18]
@@ -309,7 +326,21 @@
     - [Kotlin学习教程(八)][187]
     - [Kotlin学习教程(九)][188]
     - [Kotlin学习教程(十)][197]
+    - [集合之常用操作符汇总](https://www.cnblogs.com/Jetictors/p/9241867.html)
 
+## Flutter
+* **Flutter学习：**
+  * [flutter脚手架封装](https://github.com/pengMaster/flutter_app)
+  * [flutter中文学习网](https://book.flutterchina.club/chapter2/)
+  * [flutter常用库总结](https://www.cnblogs.com/yangyxd/p/9232308.html)
+  * [flutter开源项目](https://flutterchina.club/opensource.html)
+  * [flutter基础语法](https://www.jianshu.com/p/3d927a7bf020)
+  * [Flutter常用工具类](https://juejin.im/post/5d0f4c54f265da1bb31c426c?utm_source=gold_browser_extension)
+  * [Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
+  
+## TODO学习清单
+- [TODO学习清单](docs/android/self.md)  
+    
 ## Java
 
 ### 基础
